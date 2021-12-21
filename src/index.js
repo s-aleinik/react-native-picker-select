@@ -511,6 +511,7 @@ export default class RNPickerSelect extends PureComponent {
         onPress={onOpen}
         activeOpacity={1}
         {...touchableWrapperProps}
+        style={style.headlessAndroidContainer}
       >
         <View style={style.headlessAndroidContainer}>
           {this.renderTextInputOrChildren()}
